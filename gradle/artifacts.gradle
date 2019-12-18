@@ -31,7 +31,7 @@ dependencies {
 def packagesToRelocate = ['javassist', 'org.glassfish', 'org.jvnet', 'jersey.repackaged',
                           'com.fasterxml', 'io.netty', 'org.bouncycastle', 'org.apache',
                           'org.aopalliance', 'org.scijava', 'com.google', 'javax.annotation',
-                          'javax.inject', 'javax.ws', 'net.sf', 'org.objectweb', 'org.newsclub']
+                          'javax.inject', 'javax.ws', 'net.sf', 'org.objectweb']
 
 shadowJar {
     from rootProject.configurations.findByName('dockerJava')
